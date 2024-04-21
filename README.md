@@ -6,3 +6,9 @@ For react Debugging https://www.google.com/search?q=how+to+start+react+app+in+de
 
 https://vitejs.dev/guide/static-deploy.html
 https://game-kzjf4li81-nagas-projects-b1b312c6.vercel.app/
+
+install react query
+npm i @tanstack/react-query@4.28
+
+install react query devtools
+npm i @tanstack/react-query-devtools@4.28
