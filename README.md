@@ -12,3 +12,15 @@ npm i @tanstack/react-query@4.28
 
 install react query devtools
 npm i @tanstack/react-query-devtools@4.28
+
+install zustand for state management
+npm i zustand@4.3.7
+
+install simple zustand devtools
+npm i simple-zustand-devtools@1.1.0
+
+install type declartion or node
+npm i -D @types/node
+
+install react router
+npm i react-router-dom@6.10.0

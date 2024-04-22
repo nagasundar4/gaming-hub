@@ -26,7 +26,7 @@ const useGames = (gameQuery: GameQuery) =>
     queryKey: ["games", gameQuery],
     queryFn: () =>
       apiClient
-        .get<FetchResponse<Game>>("games", {
+        .get<FetchResponse<Game>>("/games", {
           params: {
             genres: gameQuery.genre?.id,
             parent_platforms: gameQuery.platform?.id,
