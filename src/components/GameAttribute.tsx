@@ -6,7 +6,7 @@ import DefinitionItem from "./DefinitionItem";
 interface Props {
   game: Game;
 }
-const GameAttribut = ({ game }: Props) => {
+const GameAttribute = ({ game }: Props) => {
   return (
     <SimpleGrid columns={2} as="dl">
       <DefinitionItem term="Platforms">
@@ -31,4 +31,4 @@ const GameAttribut = ({ game }: Props) => {
   );
 };
 
-export default GameAttribut;
+export default GameAttribute;
