@@ -27,3 +27,9 @@ npm i react-router-dom@6.10.0
 
 install react infinite scroll component
 npm i react-infinite-scroll-component@6.1
+
+install ms ( for time calculations)
+npm i ms@2.1.3
+
+install ms type definitions
+npm i -D @types/ms
