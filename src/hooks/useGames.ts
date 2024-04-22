@@ -1,13 +1,11 @@
 // import { useEffect, useState } from "react";
 // import apiClient from "../services/api-client";
 // import { CanceledError } from "axios";
-import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
+import { useInfiniteQuery } from "@tanstack/react-query";
 import { GameQuery } from "../App";
 import APIClient from "../services/api-client";
-import { FetchResponse } from "../services/api-client";
 
 import { Platform } from "./usePlatforms";
-import { Genre } from "./useGenres";
 export interface Game {
   id: number;
   name: string;
@@ -39,6 +37,7 @@ const useGames = (gameQuery: GameQuery) =>
       return lastPage.next ? allPages.length + 1 : undefined;
     },
     staleTime: 24 * 60 * 60 * 1000, //24 hrs
+    // initialData: platforms
   });
 
 // {
