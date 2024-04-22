@@ -24,3 +24,6 @@ npm i -D @types/node
 
 install react router
 npm i react-router-dom@6.10.0
+
+install react infinite scroll component
+npm i react-infinite-scroll-component@6.1
