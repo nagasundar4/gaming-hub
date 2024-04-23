@@ -6,7 +6,7 @@ import APIClient from "../services/api-client";
 
 import ms from "ms";
 import useGameQueryStore from "../store";
-import { Game } from "../entities/Game";
+import Game from "../entities/Game";
 // interface FetchGameResponse {
 //   count: number;
 //   results: Game[];
